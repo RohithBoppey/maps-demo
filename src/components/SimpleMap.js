@@ -104,12 +104,59 @@ const markers = [
         coordinates: [133.7751,  25.2744],
         dataUsage: 250
     },
-    
+    {
+        markerOffset: '15',
+        name: "Bangalore",
+        coordinates: [77.580643,  12.972442],
+        dataUsage: 375
+    },
+    {
+        markerOffset: '15',
+        name: "Pakistan",
+        coordinates: [69.3451,  30.3753],
+        dataUsage: 275
+    },
+    {
+        markerOffset: '15',
+        name: "Myanmar",
+        coordinates: [95.9560,  21.9162],
+        dataUsage: 175
+    },
+    {
+        markerOffset: '15',
+        name: "Botswana",
+        coordinates: [22.3285, 24.6849],
+        dataUsage: 179
+    },
+    {
+        markerOffset: '15',
+        name: "Kazakhstan",
+        coordinates: [66.9237,  48.0196],
+        dataUsage: 198
+    },
+    {
+        markerOffset: '15',
+        name: "Congo",
+        coordinates: [21.7587,  4.0383],
+        dataUsage: 475
+    },
+    {
+        markerOffset: '15',
+        name: "South Africa",
+        coordinates: [22.9375,  30.5595],
+        dataUsage: 475
+    },
+    {
+        markerOffset: '15',
+        name: "Canada",
+        coordinates: [106.3468,  56.1304],
+        dataUsage: 475
+    },
 ]
 
 
 const colorScaler = (value) => {
-    // Assuming value ranges from 0 to 7500
+    // Assuming value ranges from 0 to to maximum value.
     const scaler = chroma.scale(['#03fcf8', '#4503fc']).domain([0, 800]);
     return scaler(value);
 }

@@ -6,3 +6,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.App a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.App a:hover{
+  background-color: rgba(51, 57, 51, 0.217);
+}
