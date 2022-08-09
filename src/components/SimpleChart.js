@@ -1,6 +1,8 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
-import { Chart as Chart } from "chart.js/auto";
+
+/* eslint-disable no-unused-vars */
+import { Chart } from "chart.js/auto"; 
 
 const SimpleChart = (props) => {
 	const chartDetails = {
